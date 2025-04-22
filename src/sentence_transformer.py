@@ -11,7 +11,7 @@ import numpy as np
 model_name = 'sentence-transformers/all-MiniLM-L6-v2'
 model = SentenceTransformer(model_name)
 
-# Sample sentences
+# Sample sentences (add, remove, or modify the input sentences, and output will chanege accordingly)
 sentences = [
     "Piyush is ML engineer with expertise in Cloud Computing!"
 ]
@@ -20,6 +20,7 @@ sentences = [
 embeddings = model.encode(sentences)
 
 # Output embeddings shape
+print(f"Input Sentences: ", sentences)
 print(f'Embeddings shape: {embeddings.shape}')
 
 # Example embedding

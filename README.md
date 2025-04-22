@@ -3,6 +3,12 @@
 This project implements sentence embeddings using Hugging Face + SentenceTransformers.
 I have extended it to multi-task learning with custom heads in later stages as per instructions from Fetch.
 
+
+## Note to Reviewer 
+
+All commands were tested in GitHub Codespaces. The project is fully reproducible online or locally via Docker or Python. No special setup is required beyond standard Python and pip.
+
+
 ---
 
 ## 🔍 Overview
