@@ -1,7 +1,7 @@
-# 🚀 Sentence Transformer + Multi-Task Learning (Fetch ML Apprentice)  
+# 🚀 Sentence Transformer + Multi-Task Learning  
 
 This project implements sentence embeddings using Hugging Face + SentenceTransformers.
-I have extended it to multi-task learning with custom heads in later stages as per instructions from Fetch.
+I have extended it to multi-task learning with custom heads in later stages. 
 
 
 ## Note to Reviewer 
